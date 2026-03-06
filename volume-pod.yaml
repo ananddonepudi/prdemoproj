@@ -4,6 +4,7 @@ metadata:
   name: nginxpvc
   label:
    app: myapp
+   env: dev
 spec:
   containers:
    - name: nginx
